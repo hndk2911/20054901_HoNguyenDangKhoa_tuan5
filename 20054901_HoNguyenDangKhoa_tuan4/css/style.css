@@ -1,0 +1,120 @@
+* {
+    margin: 0px auto;
+    padding: 0px;
+}
+
+body {
+    background-image: url(../img/background.png);
+}
+
+.wrapper {
+    height: 1000px;
+    width: 1089px;
+    background-color: antiquewhite;
+}
+
+nav {
+    height: 50px;
+    width: 100%;
+    background-color: aquamarine;
+    line-height: 50px;
+}
+
+header {
+    height: 150px;
+    width: 100%;
+    background-image: url(../img/Header.jfif);
+}
+
+.wrapper header .head {
+    color: #4576ff;
+    font-size: 100px;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px #999999;
+    text-align: center;
+    line-height: 150px;
+}
+
+.wrapper header:hover p {
+    transform: rotate(30deg);
+}
+
+.content {
+    width: 100%;
+    height: 760px;
+    background-color: azure;
+}
+
+.content img {
+    width: 100%;
+}
+
+aside {
+    height: 360px;
+    width: 30%;
+    float: left;
+}
+
+section {
+    height: 360px;
+    width: 70%;
+    float: left;
+    background-color: yellow;
+}
+
+.clear {
+    clear: both;
+}
+
+.menu li {
+    float: left;
+    width: 150px;
+    height: 50px;
+    list-style: none;
+    text-indent: 20px;
+    background-color: beige;
+    position: relative;
+}
+
+.menu li .submenu {
+    position: absolute;
+    display: none;
+}
+
+a {
+    font-weight: bold;
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+.menu li:hover {
+    background-color: black;
+}
+
+li:hover>a {
+    font-style: italic;
+    color: white;
+}
+
+.menu li:hover .submenu {
+    display: block;
+}
+
+nav span form #txtSubmit {
+    padding: 3px;
+    border-radius: 50%;
+}
+
+nav span form #txtEmail {
+    padding: 3px;
+    font-weight: bold;
+}
+
+.content aside article img:hover {
+    transform: rotate(20deg);
+}
+
+footer {
+    text-align: center;
+}
